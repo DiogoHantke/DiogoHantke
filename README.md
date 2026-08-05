@@ -1,31 +1,47 @@
-# Olá, eu sou o Diogo Hantke
+<div align="center">
 
-Sou estudante de **Engenharia de Controle e Automação**, com formação técnica em **Análise e Desenvolvimento de Sistemas**.
+# Diogo Hantke
 
-Tenho interesse em desenvolver sistemas que integrem **software, eletrônica, controle e robótica**.
+### Engenharia de Controle e Automação
 
-Meus principais focos são:
+**Robótica Móvel · Sistemas Embarcados · Controle · Backend**
 
-* Robótica móvel
-* ROS 2
-* Sistemas de controle
-* Sistemas embarcados
-* Integração hardware–software
-* Backend e bancos de dados
-* Algoritmos aplicados à robótica
-* Sensores, odometria e localização
-* Sistemas ciberfísicos e IoT
+</div>
 
-Utilizo principalmente **Python, C e C++**, além de trabalhar com microcontroladores como **STM32, ESP32 e ATmega328P**.
+## Perfil
 
-Atualmente, estou aprofundando meus conhecimentos em:
+Sou estudante de **Engenharia de Controle e Automação**, com formação técnica em **Análise e Desenvolvimento de Sistemas**. Minha atuação reúne desenvolvimento de software, eletrônica e controle, com foco na integração entre sistemas computacionais e processos físicos.
 
-* arquitetura ROS 2;
-* cinemática de robôs móveis;
+Tenho experiência acadêmica e prática no desenvolvimento de **firmware**, aquisição e processamento de dados de sensores, acionamento de motores, comunicação entre dispositivos e construção de aplicações em Python. Meus projetos incluem sistemas embarcados de baixo nível, robótica competitiva e integração entre microcontroladores, protocolos de comunicação, backend e bancos de dados.
+
+Atualmente, concentro meus estudos em **robótica móvel e ROS 2**, com interesse em:
+
+* modelagem e cinemática de robôs móveis;
 * odometria e propagação de erros;
-* controle de trajetória;
-* desenvolvimento de firmware;
-* arquitetura de software;
-* APIs, bancos de dados e telemetria.
+* localização e integração de sensores;
+* controle de movimento e trajetória;
+* sistemas embarcados e firmware;
+* arquiteturas para sistemas robóticos;
+* telemetria e sistemas ciberfísicos.
 
-Meu objetivo é atuar no desenvolvimento e na pesquisa de sistemas robóticos, compreendendo cada projeto desde a modelagem matemática até a implementação em software e hardware.
+Na área de software, trabalho principalmente com **Python**, utilizando a linguagem para desenvolvimento de aplicações, automação, backend, manipulação de dados e implementação de algoritmos. Também utilizo **C e C++** no desenvolvimento de firmware e aplicações que exigem integração direta com hardware, além de possuir experiência com **Assembly AVR** e programação de periféricos em baixo nível.
+
+Meu objetivo profissional e acadêmico é desenvolver sistemas robóticos completos, integrando **modelagem matemática, controle, software, sensores, atuadores e infraestrutura de dados**.
+
+## Tecnologias e áreas de atuação
+
+<div align="center">
+
+`Python` · `C` · `C++` · `AVR Assembly` · `ROS 2` · `Flask` · `SQLite`
+
+`STM32` · `ESP32` · `ATmega328P` · `Linux` · `Git` · `Docker`
+
+</div>
+
+---
+
+<div align="center">
+
+**Desenvolvimento de sistemas robóticos do modelo matemático à integração com hardware e software.**
+
+</div>
