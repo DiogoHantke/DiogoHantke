@@ -2,70 +2,60 @@
 
 # Diogo Hantke
 
-### Estudante de Engenharia de Controle e Automação
+**Estudante de Engenharia de Controle e Automação**  
+**Técnico em Análise e Desenvolvimento de Sistemas**
 
-**Robótica Móvel · ROS 2 · Sistemas Embarcados · Controle · Pesquisa em Robótica**
+Robótica Móvel · ROS 2 · Sistemas em Python · Controle · Sistemas Embarcados
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Diogo_Hantke-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diogo-hantke-rodrigues-garcia/)
 
 </div>
 
 ## Sobre mim
 
-Sou estudante de **Engenharia de Controle e Automação** e técnico em **Análise e Desenvolvimento de Sistemas**. Minha formação combina software, eletrônica, controle e automação, com foco no desenvolvimento de sistemas capazes de perceber, decidir e atuar no mundo físico.
+Sou estudante de **Engenharia de Controle e Automação** e técnico em **Análise e Desenvolvimento de Sistemas**. Minha formação está voltada à robótica, especialmente à robótica móvel, unindo desenvolvimento de software, modelagem, controle e sistemas embarcados.
 
-Atualmente, concentro meus estudos e projetos em **robótica móvel**, utilizando **ROS 2** e **Python** no desenvolvimento de arquiteturas robóticas e soluções para automação.
+Desenvolvo sistemas em **Python** para automação, algoritmos, processamento de dados, backend e aplicações de engenharia. Em robótica, estudo e utilizo **ROS 2** para estruturar e integrar componentes de software, trabalhar com comunicação modular, desenvolvendo softwares robóticos, para diversas aplicações.
 
-Também desenvolvo sistemas embarcados e firmware em **C para microcontroladores**, voltados a aplicações práticas em robótica. Em software, utilizo principalmente **Python** para aplicações, automação, algoritmos, processamento de dados, backend e ferramentas voltadas à engenharia.
+Meus principais interesses são robótica móvel e autônoma, cinemática e modelagem de robôs diferenciais, controle de movimento, odometria, localização, fusão sensorial, SLAM, planejamento de trajetória e navegação autônoma. Também me interesso por visão computacional, inteligência artificial aplicada à robótica e arquitetura de software para sistemas robóticos.
 
-## Pesquisa e desenvolvimento
+Minha linguagem mais forte é **Python**. Também trabalho com **C**, e **AVR Assembly** no desenvolvimento de firmware, controle de periféricos e integração de microcontroladores com sensores e atuadores, além de possuir conhecimentos básicos em **C++** e **JavaScript**,  **SQL**. Meu objetivo técnico é construir sistemas robóticos completos, conectando o software de alto nível em ROS 2 ao hardware embarcado.
 
-Meu principal interesse acadêmico está na pesquisa aplicada à robótica, conectando **modelagem matemática, simulação e validação experimental**. Entre os temas que orientam minha formação estão:
-
-- modelagem e cinemática de robôs móveis diferenciais;
-- odometria e análise da propagação de erros;
-- localização, fusão sensorial, SLAM e navegação;
-- controle de movimento, trajetória e atuadores;
-- firmware e integração entre sensores, microcontroladores e software;
-- telemetria, sistemas ciberfísicos e infraestrutura de dados para robôs.
-
-Meus projetos envolvem robôs móveis, sistemas de assistência de carga, seguidores de linha, aquisição e processamento de dados de sensores, controle de motores e integração entre hardware e software.
-
-## Linguagens
+## Linguagens e tecnologias principais
 
 <div align="center">
-
-**Linguagens principais**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![AVR Assembly](https://img.shields.io/badge/AVR_Assembly-EE1F25?style=for-the-badge&logo=microchip&logoColor=white)
-
-**Linguagens básicas**
-
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)
 
 </div>
 
-## Tecnologias
+## Tecnologias de dominio básico
 
-| Área | Tecnologias e ferramentas |
-| --- | --- |
-| **Robótica e simulação** | ROS 2, Gazebo, RViz, Nav2 |
-| **Sistemas embarcados** | STM32, ESP32, ATmega328P, Raspberry Pi |
-| **Controle e engenharia** | MATLAB (básico) |
-| **Backend e bancos de dados** | Flask, SQLite, SQLAlchemy |
-| **Ambiente e desenvolvimento** | Linux, Git, Docker, KiCad |
+<div align="center">
+  
+![ATmega328P](https://img.shields.io/badge/ATmega328P-EE1F25?style=for-the-badge&logo=microchip&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-## Objetivo
+</div>
 
-Meu objetivo é atuar no desenvolvimento e na pesquisa de **sistemas robóticos completos**, integrando algoritmos, controle, sensores, atuadores, firmware e infraestrutura de software — da modelagem matemática à implementação em hardware.
+## Experiência e projetos
 
----
+Meus projetos envolvem robôs móveis, uma empilhadeira autônoma seguidora de linha, sistemas de controle com sensores e atuadores, firmware para microcontroladores e aplicações em Python com automação, bancos de dados, telemetria e processamento de informações.
+
+## Pesquisa
+
+Meu principal interesse acadêmico está na pesquisa em robótica móvel, com foco no desenvolvimento de robôs diferenciais para aplicações de inspeção. Busco integrar modelagem matemática, simulação, controle e implementação em ROS 2, avançando da validação em ambiente simulado para testes experimentais em plataformas físicas.
+
+Quero aprofundar minha formação em robótica e controle e seguir carreira em pesquisa e desenvolvimento. Meu objetivo é projetar sistemas autônomos completos e participar de todas as etapas — da modelagem e dos algoritmos ao software em ROS 2, ao firmware, à integração do hardware e aos testes no sistema físico.
 
 <div align="center">
 
-**Desenvolvendo sistemas robóticos da modelagem à integração entre hardware e software.**
-
-[LinkedIn](https://www.linkedin.com/in/diogo-hantke-rodrigues-garcia/)
+**Robótica, controle e software aplicados ao desenvolvimento de sistemas autônomos.**
 
 </div>
