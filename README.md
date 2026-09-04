@@ -15,7 +15,7 @@ Robótica Móvel · Python · ROS 2 · Sistemas Embarcados
 
 Sou estudante de **Engenharia de Controle e Automação** e técnico em **Análise e Desenvolvimento de Sistemas**. Minha formação combina programação, controle, eletrônica e sistemas embarcados, e hoje está direcionada principalmente à robótica móvel.
 
-**Python** é minha linguagem mais forte. Tenho experiência desenvolvendo aplicações de terminal, automações, algoritmos, sistemas com bancos de dados e ferramentas voltadas à engenharia. Também utilizo **C** e **AVR Assembly** em projetos com microcontroladores, sensores, temporizadores, conversores A/D, PWM e displays.
+**Python** é minha linguagem mais forte. Tenho experiência desenvolvendo aplicações de terminal, automações, algoritmos, sistemas com bancos de dados e ferramentas voltadas à engenharia. Também utilizo **C** e **AVR Assembly** em projetos com microcontroladores.
 
 Atualmente, concentro meus estudos e projetos no desenvolvimento de robôs diferenciais e no uso do **ROS 2**. Já possuo contato prático com os fundamentos do ROS 2, como nós, tópicos, serviços, ações, callbacks e interfaces, e continuo avançando na integração desses recursos em sistemas robóticos.
 
