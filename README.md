@@ -19,30 +19,41 @@ Utilizo **Python** no desenvolvimento de aplicações, algoritmos e ferramentas 
 
 Atualmente, direciono meus projetos e minha pesquisa para **robôs móveis diferenciais e aplicações de inspeção**, com uso de ROS 2, modelagem, simulação e integração com plataformas físicas.
 
-## Projetos em destaque
-
-| Projeto | Foco técnico |
-| --- | --- |
-| [Mini Forno Didático Automatizado](https://github.com/DiogoHantke/MiniForno-Didatico-Automatizado) | Integração STM32 e ESP32, controle térmico proporcional, máquina de estados, comunicação UART e dashboard web. |
-| [Cellerium — Robô Seguidor de Linha](https://github.com/DiogoHantke/line-follower-cellerium) | Calibração de sensores, estimativa da posição da linha, controle PD e acionamento de motores. Projeto da equipe CTDBots, vice-campeã na Corrida de Robôs Seguidores de Linha do TRIF 2025. |
-| [Sistema Supervisório de Motores](https://github.com/DiogoHantke/Sistema_supervisorio_motores_assembly_ATMEGA328p) | Firmware em AVR Assembly para ATmega328P, com aquisição de sensores, PWM, temporização, menus de operação e armazenamento de parâmetros. |
-| [Simon Hub — Players Online](https://github.com/DiogoHantke/Simon-hub-players-online) | Integração Arduino e ESP8266 com backend Flask, persistência em SQLite, ranking online e exportação em PDF. |
-
-Os repositórios apresentam o contexto, a implementação e o estágio de desenvolvimento de cada projeto.
-
 ## Tecnologias
 
-**Software e firmware**  
-Python · C · AVR Assembly · C++
+<div align="center">
 
-**Sistemas embarcados**  
-STM32 · ATmega328P · ESP32 · ESP8266 · Arduino · ADC · PWM · UART · I²C
+**Software e firmware**
 
-**Robótica e simulação**  
-ROS 2 · Gazebo · RViz
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black&style=for-the-badge)
+![AVR Assembly](https://img.shields.io/badge/AVR_Assembly-EE1F25?logo=microchip&logoColor=white&style=for-the-badge)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white&style=for-the-badge)
 
-**Backend e ferramentas**  
-Flask · SQLite · Linux · Git · PlatformIO · STM32CubeIDE
+**Sistemas embarcados**
+
+![STM32](https://img.shields.io/badge/STM32-03234B?logo=stmicroelectronics&logoColor=white&style=for-the-badge)
+![ATmega328P](https://img.shields.io/badge/ATmega328P-EE1F25?logo=microchip&logoColor=white&style=for-the-badge)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?logo=espressif&logoColor=white&style=for-the-badge)
+![ESP8266](https://img.shields.io/badge/ESP8266-E7352C?logo=espressif&logoColor=white&style=for-the-badge)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?logo=arduino&logoColor=white&style=for-the-badge)
+
+**Robótica e simulação**
+
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?logo=ros&logoColor=white&style=for-the-badge)
+![Gazebo](https://img.shields.io/badge/Gazebo-F58113?logo=gazebo&logoColor=white&style=for-the-badge)
+![RViz](https://img.shields.io/badge/RViz-22314E?logo=ros&logoColor=white&style=for-the-badge)
+
+**Backend e ferramentas**
+
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white&style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white&style=for-the-badge)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?logo=platformio&logoColor=white&style=for-the-badge)
+![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-03234B?logo=stmicroelectronics&logoColor=white&style=for-the-badge)
+
+</div>
 
 ## Direção de pesquisa
 
