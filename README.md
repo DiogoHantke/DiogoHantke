@@ -28,7 +28,6 @@ Atualmente, direciono meus projetos e minha pesquisa para **robôs móveis difer
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
 ![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black&style=for-the-badge)
 ![AVR Assembly](https://img.shields.io/badge/AVR_Assembly-EE1F25?logo=microchip&logoColor=white&style=for-the-badge)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=white&style=for-the-badge)
 
 **Sistemas embarcados**
 
