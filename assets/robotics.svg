@@ -1,53 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
-  <title id="title">Robótica móvel e percepção</title>
-  <desc id="desc">Um robô diferencial se desloca enquanto seu sensor LiDAR varre o ambiente. Pontos representam leituras dos sensores.</desc>
-  <defs>
-    <radialGradient id="scan">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity=".32"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#64748b" stroke-opacity=".12" stroke-width=".7"/>
-    </pattern>
-  </defs>
-  <rect x="1" y="1" width="898" height="178" rx="16" fill="#0d1117"/>
-  <rect x="1" y="1" width="898" height="178" rx="16" fill="url(#grid)"/>
-  <g fill="none" stroke="#475569" stroke-width="2">
-    <path d="M170 53H240V75M650 105V130H715"/>
-    <rect x="282" y="118" width="45" height="20" rx="4"/>
-    <rect x="590" y="38" width="38" height="20" rx="4"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="title desc">
+<title id="title">Robótica móvel — visualização inspirada no RViz</title>
+<desc id="desc">Cena ilustrativa com grade de mapa, pontos de LiDAR, trajetória animada e eixos TF. Um robô móvel se desloca enquanto seu sensor varre o ambiente.</desc>
+<defs>
+  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#5e6c80" stroke-opacity=".22" stroke-width=".7"/></pattern>
+  <radialGradient id="scan"><stop stop-color="#38bdf8" stop-opacity=".22"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+  <marker id="red" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0 0L5 2.5L0 5Z" fill="#f87171"/></marker>
+  <marker id="green" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0 0L5 2.5L0 5Z" fill="#4ade80"/></marker>
+  <clipPath id="panel"><rect x="1" y="1" width="898" height="228" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#panel)">
+  <rect width="900" height="230" fill="#141b24"/>
+  <rect width="900" height="27" fill="#212b37"/>
+  <circle cx="17" cy="14" r="4" fill="#38bdf8"/>
+  <g font-family="DejaVu Sans,Arial,sans-serif" font-size="10" fill="#cbd5e1">
+    <text x="30" y="18" font-weight="600">RViz2 · Mobile Robotics</text>
+    <text x="715" y="18" fill="#94a3b8">Fixed Frame: map</text>
   </g>
-  <path d="M180 98C260 98 280 85 360 85S470 100 540 95S640 80 720 80"
-        fill="none" stroke="#2dd4bf" stroke-opacity=".4" stroke-width="2" stroke-dasharray="4 7">
-    <animate attributeName="stroke-dashoffset" from="0" to="-44" dur="3s" repeatCount="indefinite"/>
-  </path>
-  <g fill="#38bdf8">
-    <circle cx="240" cy="75" r="3"/><circle cx="212" cy="53" r="2"/>
-    <circle cx="282" cy="118" r="2.5"/><circle cx="327" cy="118" r="2"/>
-    <circle cx="590" cy="58" r="2.5"/><circle cx="628" cy="58" r="2"/>
-    <circle cx="650" cy="105" r="3"/><circle cx="684" cy="130" r="2"/>
-    <animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/>
-  </g>
-  <g transform="translate(450 90)">
-    <animateTransform attributeName="transform" type="translate"
-      values="400 90;450 87;500 90;450 93;400 90" dur="12s" repeatCount="indefinite"/>
-    <circle r="70" fill="none" stroke="#38bdf8" stroke-opacity=".12"/>
-    <circle r="48" fill="none" stroke="#38bdf8" stroke-opacity=".12" stroke-dasharray="2 6"/>
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
-      <path d="M0 0L-36-60A70 70 0 0 1 36-60Z" fill="url(#scan)"/>
-      <path d="M0 0V-70" stroke="#38bdf8" stroke-opacity=".65" stroke-width="1"/>
-      <circle cy="-70" r="2.5" fill="#7dd3fc"/>
+  <rect x="151" y="27" width="749" height="181" fill="url(#grid)"/>
+  <rect x="0" y="27" width="150" height="181" fill="#19222d"/>
+  <path d="M150 27V208" stroke="#334155"/>
+  <g font-family="DejaVu Sans,Arial,sans-serif" font-size="10">
+    <text x="16" y="49" fill="#e2e8f0" font-weight="600">Displays</text>
+    <g fill="#94a3b8">
+      <text x="33" y="74">Grid</text><text x="33" y="97">Map</text>
+      <text x="33" y="120">LaserScan</text><text x="33" y="143">RobotModel</text>
+      <text x="33" y="166">TF</text><text x="33" y="189">Path</text>
     </g>
-    <rect x="-22" y="-26" width="12" height="13" rx="3" fill="#64748b"/>
-    <rect x="-22" y="13" width="12" height="13" rx="3" fill="#64748b"/>
-    <rect x="10" y="-26" width="12" height="13" rx="3" fill="#64748b"/>
-    <rect x="10" y="13" width="12" height="13" rx="3" fill="#64748b"/>
-    <rect x="-25" y="-17" width="50" height="34" rx="12" fill="#172b3a" stroke="#7dd3fc" stroke-width="1.5"/>
-    <path d="M14-7L21 0L14 7" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="-5" r="8" fill="#0d1117" stroke="#38bdf8" stroke-width="1.5"/>
-    <circle cx="-5" r="3" fill="#38bdf8">
-      <animate attributeName="opacity" values="1;.35;1" dur="1.5s" repeatCount="indefinite"/>
-    </circle>
+    <g fill="#2dd4bf"><text x="16" y="74">✓</text><text x="16" y="97">✓</text><text x="16" y="120">✓</text><text x="16" y="143">✓</text><text x="16" y="166">✓</text><text x="16" y="189">✓</text></g>
   </g>
+  <g fill="#64748b" fill-opacity=".35" stroke="#94a3b8" stroke-opacity=".3">
+    <path d="M270 53H665V61H278V112H270Z"/>
+    <path d="M656 127H664V177H767V185H656Z"/>
+    <rect x="344" y="161" width="46" height="24" rx="2"/>
+    <rect x="711" y="68" width="40" height="24" rx="2"/>
+  </g>
+  <path d="M212 133C292 133 334 117 405 117S510 132 565 125S652 105 817 105" fill="none" stroke="#2dd4bf" stroke-width="1.8" stroke-opacity=".65"/>
+  <path d="M212 133C292 133 334 117 405 117S510 132 565 125S652 105 817 105" fill="none" stroke="#99f6e4" stroke-width="2" stroke-dasharray="2 16">
+    <animate attributeName="stroke-dashoffset" from="0" to="-54" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#f87171"><circle cx="278" cy="62.19942531021869" r="1.7"/><circle cx="291" cy="62.104017070595155" r="1.7"/><circle cx="304" cy="61.80424816453661" r="1.7"/><circle cx="317" cy="61.35560774619679" r="1.7"/><circle cx="330" cy="60.84114204495346" r="1.7"/><circle cx="343" cy="60.356081973773726" r="1.7"/><circle cx="356" cy="59.99021527421295" r="1.7"/><circle cx="369" cy="59.81126622748022" r="1.7"/><circle cx="382" cy="59.8523594540386" r="1.7"/><circle cx="395" cy="60.10588833313094" r="1.7"/><circle cx="408" cy="60.52492303724661" r="1.7"/><circle cx="421" cy="61.03189754528566" r="1.7"/><circle cx="434" cy="61.53296761236466" r="1.7"/><circle cx="447" cy="61.93538194362935" r="1.7"/><circle cx="460" cy="62.16465105598151" r="1.7"/><circle cx="473" cy="62.17833576089663" r="1.7"/><circle cx="486" cy="61.97390293140512" r="1.7"/><circle cx="499" cy="61.58919440020035" r="1.7"/><circle cx="512" cy="61.09542219281545" r="1.7"/><circle cx="525" cy="60.58398672329825" r="1.7"/><circle cx="538" cy="60.14955798921744" r="1.7"/><circle cx="551" cy="59.872551545712426" r="1.7"/><circle cx="564" cy="59.80424306859403" r="1.7"/><circle cx="577" cy="59.957276896685364" r="1.7"/><circle cx="590" cy="60.30332548331271" r="1.7"/><circle cx="603" cy="60.77833300754214" r="1.7"/><circle cx="616" cy="61.29437251896802" r="1.7"/><circle cx="629" cy="61.755921782227695" r="1.7"/><circle cx="642" cy="62.07754505765322" r="1.7"/><circle cx="655" cy="62.199707806642266" r="1.7"/><circle cx="278" cy="63" r="1.7"/><circle cx="278" cy="73" r="1.7"/><circle cx="278" cy="83" r="1.7"/><circle cx="278" cy="93" r="1.7"/><circle cx="278" cy="103" r="1.7"/><circle cx="664" cy="177" r="1.7"/><circle cx="675" cy="177" r="1.7"/><circle cx="686" cy="177" r="1.7"/><circle cx="697" cy="177" r="1.7"/><circle cx="708" cy="177" r="1.7"/><circle cx="719" cy="177" r="1.7"/><circle cx="730" cy="177" r="1.7"/><circle cx="741" cy="177" r="1.7"/><circle cx="752" cy="177" r="1.7"/><circle cx="664" cy="128" r="1.7"/><circle cx="664" cy="138" r="1.7"/><circle cx="664" cy="148" r="1.7"/><circle cx="664" cy="158" r="1.7"/><circle cx="664" cy="168" r="1.7"/>
+    <circle cx="344" cy="161" r="2"/><circle cx="366" cy="161" r="2"/><circle cx="389" cy="161" r="2"/>
+    <circle cx="711" cy="92" r="2"/><circle cx="731" cy="92" r="2"/><circle cx="751" cy="92" r="2"/>
+    <animate attributeName="opacity" values=".5;1;.5" dur="4s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(205 186)" stroke-width="1.5">
+    <path d="M0 0H33" stroke="#f87171" marker-end="url(#red)"/>
+    <path d="M0 0V-32" stroke="#4ade80" marker-end="url(#green)"/>
+    <circle r="3" fill="#60a5fa"/>
+    <g font-family="DejaVu Sans,Arial,sans-serif" font-size="8" stroke="none">
+      <text x="38" y="3" fill="#f87171">X</text><text x="-3" y="-38" fill="#4ade80">Y</text>
+      <text x="-8" y="15" fill="#94a3b8">map</text>
+    </g>
+  </g>
+  <g transform="translate(485 123)">
+    <animateTransform attributeName="transform" type="translate" values="433 120;485 125;537 128;485 125;433 120" dur="14s" repeatCount="indefinite"/>
+    <circle r="78" fill="none" stroke="#38bdf8" stroke-opacity=".12"/>
+    <circle r="53" fill="none" stroke="#38bdf8" stroke-opacity=".1" stroke-dasharray="2 6"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+      <path d="M0 0L-39-67A78 78 0 0 1 39-67Z" fill="url(#scan)"/>
+      <path d="M0 0V-78" stroke="#38bdf8" stroke-opacity=".6"/>
+      <circle cy="-78" r="2" fill="#7dd3fc"/>
+    </g>
+    <rect x="-17" y="-24" width="34" height="9" rx="3" fill="#64748b"/>
+    <rect x="-17" y="15" width="34" height="9" rx="3" fill="#64748b"/>
+    <rect x="-25" y="-16" width="50" height="32" rx="11" fill="#243b4b" stroke="#7dd3fc" stroke-width="1.5"/>
+    <path d="M14-6L20 0L14 6" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+    <circle cx="-6" r="7" fill="#0d1117" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="-6" r="2.5" fill="#38bdf8"><animate attributeName="opacity" values="1;.3;1" dur="1.5s" repeatCount="indefinite"/></circle>
+    <path d="M0 0H44" stroke="#f87171" stroke-width="1.2" marker-end="url(#red)"/>
+    <path d="M0 0V-37" stroke="#4ade80" stroke-width="1.2" marker-end="url(#green)"/>
+    <text x="-26" y="36" font-family="DejaVu Sans,Arial,sans-serif" font-size="8" fill="#94a3b8">base_link</text>
+  </g>
+  <rect y="208" width="900" height="22" fill="#212b37"/>
+  <g font-family="DejaVu Sans,Arial,sans-serif" font-size="9" fill="#94a3b8">
+    <circle cx="16" cy="219" r="3" fill="#2dd4bf"/>
+    <text x="26" y="222">ROS 2</text>
+    <text x="167" y="222">/scan</text><text x="245" y="222">/tf</text><text x="310" y="222">/path</text>
+    <text x="760" y="222">Illustrative scene</text>
+  </g>
+</g>
+<rect x="1" y="1" width="898" height="228" rx="12" fill="none" stroke="#334155"/>
 </svg>
