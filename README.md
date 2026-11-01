@@ -2,10 +2,10 @@
 
 # Diogo Hantke
 
-**Estudante de Engenharia de Controle e Automação**  
-**Técnico em Análise e Desenvolvimento de Sistemas**
+**Robótica móvel · Controle · Sistemas embarcados**
 
-Robótica Móvel · Python · ROS 2 · Sistemas Embarcados
+Graduando em Engenharia de Controle e Automação  
+Técnico em Análise e Desenvolvimento de Sistemas
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Diogo_Hantke-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diogo-hantke-rodrigues-garcia/)
 
@@ -13,61 +13,48 @@ Robótica Móvel · Python · ROS 2 · Sistemas Embarcados
 
 ## Sobre mim
 
-Sou estudante de **Engenharia de Controle e Automação** e técnico em **Análise e Desenvolvimento de Sistemas**. Minha formação combina programação, controle, eletrônica e sistemas embarcados, e hoje está direcionada principalmente à robótica móvel.
+Desenvolvo projetos que conectam **software, eletrônica e controle**, com foco em sistemas embarcados e robótica móvel. Minha formação em desenvolvimento de sistemas e engenharia orienta meu trabalho na integração entre sensores, processamento e atuação física.
 
-**Python** é minha linguagem mais forte. Tenho experiência desenvolvendo aplicações de terminal, automações, algoritmos, sistemas com bancos de dados e ferramentas voltadas à engenharia. Também utilizo **C** e **AVR Assembly** em projetos com microcontroladores.
+Utilizo **Python** no desenvolvimento de aplicações, algoritmos e ferramentas de software, além de **C e AVR Assembly** em projetos com microcontroladores. Meu portfólio reúne controle de motores, aquisição de sensores, comunicação entre dispositivos e interfaces para monitoramento e operação.
 
-Atualmente, concentro meus estudos e projetos no desenvolvimento de robôs diferenciais e no uso do **ROS 2**. Já possuo contato prático com os fundamentos do ROS 2, como nós, tópicos, serviços, ações, callbacks e interfaces, e continuo avançando na integração desses recursos em sistemas robóticos.
+Atualmente, direciono meus projetos e minha pesquisa para **robôs móveis diferenciais e aplicações de inspeção**, com uso de ROS 2, modelagem, simulação e integração com plataformas físicas.
 
-## Áreas de interesse
+## Projetos em destaque
 
-Meus principais interesses são robótica móvel e autônoma, modelagem e cinemática de robôs diferenciais, controle de movimento, odometria, localização, fusão sensorial, SLAM, planejamento de trajetória e navegação. Também pretendo aprofundar meus conhecimentos em visão computacional e inteligência artificial aplicada à robótica.
+| Projeto | Foco técnico |
+| --- | --- |
+| [Mini Forno Didático Automatizado](https://github.com/DiogoHantke/MiniForno-Didatico-Automatizado) | Integração STM32 e ESP32, controle térmico proporcional, máquina de estados, comunicação UART e dashboard web. |
+| [Cellerium — Robô Seguidor de Linha](https://github.com/DiogoHantke/line-follower-cellerium) | Calibração de sensores, estimativa da posição da linha, controle PD e acionamento de motores. Projeto da equipe CTDBots, vice-campeã na Corrida de Robôs Seguidores de Linha do TRIF 2025. |
+| [Sistema Supervisório de Motores](https://github.com/DiogoHantke/Sistema_supervisorio_motores_assembly_ATMEGA328p) | Firmware em AVR Assembly para ATmega328P, com aquisição de sensores, PWM, temporização, menus de operação e armazenamento de parâmetros. |
+| [Simon Hub — Players Online](https://github.com/DiogoHantke/Simon-hub-players-online) | Integração Arduino e ESP8266 com backend Flask, persistência em SQLite, ranking online e exportação em PDF. |
 
-## Linguagens e tecnologias
+Os repositórios apresentam o contexto, a implementação e o estágio de desenvolvimento de cada projeto.
 
-<div align="center">
+## Tecnologias
 
-**Linguagens principais (domínio intermediário)**
+**Software e firmware**  
+Python · C · AVR Assembly · C++
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![AVR Assembly](https://img.shields.io/badge/AVR_Assembly-EE1F25?style=for-the-badge&logo=microchip&logoColor=white)
+**Sistemas embarcados**  
+STM32 · ATmega328P · ESP32 · ESP8266 · Arduino · ADC · PWM · UART · I²C
 
-**Linguagens de domínio básico**
+**Robótica e simulação**  
+ROS 2 · Gazebo · RViz
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+**Backend e ferramentas**  
+Flask · SQLite · Linux · Git · PlatformIO · STM32CubeIDE
 
-**Tecnologias principais**
+## Direção de pesquisa
 
-![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=for-the-badge&logo=gazebo&logoColor=white)
-![RViz](https://img.shields.io/badge/RViz-22314E?style=for-the-badge&logo=ros&logoColor=white)
+Meu foco está na integração de **modelagem, controle e software para robôs diferenciais**, especialmente em aplicações de inspeção. Os temas que orientam essa trajetória incluem:
 
-**Ferramentas e tecnologias complementares**
+- Cinemática, controle de movimento e odometria.
+- Aquisição de sensores, localização e fusão sensorial.
+- Simulação e integração de sistemas com ROS 2.
+- SLAM, planejamento de trajetórias e navegação autônoma.
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![ATmega328P](https://img.shields.io/badge/ATmega328P-EE1F25?style=for-the-badge&logo=microchip&logoColor=white)
+Meu objetivo profissional é atuar em **pesquisa e desenvolvimento de sistemas robóticos**, conectando a implementação de software ao comportamento do sistema físico.
 
-</div>
+## Contato
 
-## Projetos
-
-Meus projetos incluem uma empilhadeira autônoma seguidora de linha, sistemas embarcados para aquisição de sensores e controle de motores, um supervisor de motores desenvolvido em AVR Assembly e diferentes aplicações em Python com orientação a objetos, algoritmos e persistência de dados.
-
-## Pesquisa
-
-Minha linha de pesquisa está direcionada ao desenvolvimento de **robôs móveis diferenciais para aplicações de inspeção**. O trabalho envolve a integração entre modelagem, controle, sensores, software em ROS 2, simulação e testes em plataformas físicas.
-
-Meu objetivo é seguir carreira em pesquisa e desenvolvimento de sistemas robóticos, aprofundando progressivamente minha formação em software, controle e robótica.
-
-<div align="center">
-
-**Robótica, controle e software para sistemas autônomos.**
-
-</div>
+[LinkedIn — Diogo Hantke](https://www.linkedin.com/in/diogo-hantke-rodrigues-garcia/)
