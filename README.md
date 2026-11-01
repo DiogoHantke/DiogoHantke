@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/robotics.svg" width="900" alt="Robô móvel com varredura LiDAR e trajetória de navegação" />
+</p>
+
 <div align="center">
 
 Graduando em Engenharia de Controle e Automação  
