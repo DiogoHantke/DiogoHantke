@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="960" alt="Diogo Hantke — Robótica, controle e sistemas embarcados" />
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=760&height=45&lines=Software+que+conecta+sensores+e+movimento;Python+%7C+C+%7C+AVR+Assembly;ROS+2+%7C+Rob%C3%B3tica+m%C3%B3vel+%7C+Controle" width="760" alt="Software que conecta sensores e movimento. Python, C, AVR Assembly, ROS 2, robótica móvel e controle." />
-
 Graduando em Engenharia de Controle e Automação  
 Técnico em Análise e Desenvolvimento de Sistemas
 
